@@ -1,0 +1,235 @@
+{
+    "contractName": "DeployMerkleAirdrop",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "IS_SCRIPT",
+            "outputs": [
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "run",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"IS_SCRIPT\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"run\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/magda/merkle-airdrop-24/script/DeployMerkleAirdrop.s.sol\":\"DeployMerkleAirdrop\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"/home/magda/merkle-airdrop-24/lib/forge-std/src/Base.sol\":{\"keccak256\":\"0x4ff1a785311017d1eedb1b4737956fa383067ad34eb439abfec1d989754dde1c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f553622969b9fdb930246704a4c10dfaee6b1a4468c142fa7eb9dc292a438224\",\"dweb:/ipfs/QmcxqHnqdQsMVtgsfH9VNLmZ3g7GhgNagfq7yvNCDcCHFK\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/Script.sol\":{\"keccak256\":\"0x2315be74cc2826f9da401bea3da46a10ad6a6efdf73176d79160b453286d0ed2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://af0d4dc826911d6cb4d6272ed5cbdb6950e1476141cca328e178b808d848789c\",\"dweb:/ipfs/QmV2ytjUEkV84VtdMs1nZqQTBoVE987cHboQMpiha5yo3e\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/StdChains.sol\":{\"keccak256\":\"0x1e2c73d51d6b0d1101f3a4cf0e6def9818a891d6aa8d306f2b127943a69dca2d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ab436d74b405f890e2634c6077df15cc196b4032ec1bdabaaf021ef209e68db\",\"dweb:/ipfs/Qmbb1Qgtdn6S4aqrnpg3y9TDX7erFFcRir9GN62Y7QazaY\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/StdCheats.sol\":{\"keccak256\":\"0xb72f3519e0bf7d31df5d68557525f4fc55d861c3fb3b0f7793144ef7c94cbeb7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f3456d0f78e6f61203fa7871ba2df0d35925f10db3baee14be623ce2a35b84e2\",\"dweb:/ipfs/QmWE6QQSBvJifHMraisBTrf1x4WCwrDoTPLX8UKajTiApc\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0x62bed173cb126f6d5006706cf249bac8a2d51bfa18f773f314784ff18adc622d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5acc33dddbf2492e37dc32e89cd56ce917272d303a6874805f3a5768a6bfbf54\",\"dweb:/ipfs/QmTsgFhcpUf16gAVazUXU3WspgX8nHke2hzVCvoqS25WEp\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/StdMath.sol\":{\"keccak256\":\"0xd90ad4fd8aeaeb8929964e686e769fdedd5eded3fc3815df194a0ab9f91a3fb2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7919b70f636c7b805223992f28ad1ad0145d6c1385b5931a3589aface5fe6c92\",\"dweb:/ipfs/QmY7FRaULwoGgFteF8GawjQJRfasNgpWnU2aiMsFrYpuTC\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/StdStorage.sol\":{\"keccak256\":\"0xb91ab24383a5872b894fc93325eef1add6cbbf981628f18e860068bf88bb7dcc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2651e33b9ac8fc5803ed0a43078c1bf4fa90a0b0347aafd95776b02daccdcc57\",\"dweb:/ipfs/QmbdRyPuGJdZgnCuMnp7c1WsBo1Spf7j1KMmws1Z5rd4BQ\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/StdStyle.sol\":{\"keccak256\":\"0x43e2a8a9b9c2574dabe74f11adf6f782df218f463540e3b5b563609fe108597d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://51363ca97404cf4128e1141428949768c31929e75e014b02c85e887fbbb4f1b8\",\"dweb:/ipfs/QmVhtbQc2fU4rRmbcfBtz34mAgG4BAZBsbna1Ca4SkoPsK\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x4a5853bb9688c4e1c65626036cddd8ea2af84ef1046b704ddc3782d84a892410\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://09c1024e6aac9657312fcfcf5c3dee62c22edf9f74a1065e6924c4ec710ecafa\",\"dweb:/ipfs/QmRNURoTUkd6DiZnf8yY8o3stJpVQBifopdSpQgP9RhvRr\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x7121b5b99c4baefb34fdc1f3cc7235aac7138bbc2265344571709417623f5029\",\"license\":\"MIT OR Apache-2.0\",\"urls\":[\"bzz-raw://3866315b5f89f81746192969834b5932b30c62d7e86ad646e99b6055bdc0ca74\",\"dweb:/ipfs/QmRLhuB96iRxeF5pX4FdsizAaqgDaH2eCWFqfEXbdz9v7n\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/console.sol\":{\"keccak256\":\"0xf61cb43a94d8318049d0a7f567af8c0aa952b5762a43851b130b90b3fcde0c6a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://53a52c6c3aeb22f7a18f53fca16af590308a8e3e5507e74df9b8e2561c932194\",\"dweb:/ipfs/QmaaXuY8mC66YoE2xyZdWuLHXqAxLjbnNxiofx8BTP1MRn\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/console2.sol\":{\"keccak256\":\"0x3b8fe79f48f065a4e4d35362171304a33784c3a90febae5f2787805a438de12f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://61de63af08803549299e68b6e6e88d40f3c5afac450e4ee0a228c66a61ba003d\",\"dweb:/ipfs/QmWVoQ5rrVxnczD4ZZoPbD4PC9Z3uExJtzjD4awTqd14MZ\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/interfaces/IERC165.sol\":{\"keccak256\":\"0x414b2861b1acbf816ccb7346d3f16cf6c1e002e9e5e40d2f1f26fa5ddc2ea600\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://698352fb240868ea8f1d1fe389993035eeab930f10d06934f80ccfb2b6ccbfbc\",\"dweb:/ipfs/QmT6WLHAgXxFhh12kWym895oTzXid1326iZiwT3pyfggoT\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/interfaces/IERC20.sol\":{\"keccak256\":\"0x4cab887298790f908c27de107e4e2907ca5413aee482ef776f8d2f353c5ef947\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb715e0c4a2bdbe432bb624501506041f06e878e0b72675aebba30ad2c2b72e7\",\"dweb:/ipfs/QmWhhLSvkxS2NrukJJHqFY8gDVE5r9rD4PfHvR24pwdKv9\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/interfaces/IERC721.sol\":{\"keccak256\":\"0xf069262a264fdb69f8f37a10d2df7374649e9ba73f8414c9c8a3b51184625f15\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://924a41ca82a68ffbd503a5faf2f76d13e9938f10501a71094716f12bb64b4b7f\",\"dweb:/ipfs/QmdWnqfKc5ZGhmxNPTde4zrFchnv9Yk9MpCMb2rdhXE5gm\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/mocks/MockERC20.sol\":{\"keccak256\":\"0xadbdfc6639edec00ba94bb1133a0fd8de31ccafe45c2ef5df9b3ca61b60b559b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc766f01bccf669abac8cc7b2096cc1352a66471ca3772ae61b1801dedc4ed4f\",\"dweb:/ipfs/QmNigaPj1LYkP7Z5xr4ijkUxr2K66fDGeoifG3WoM9ruyw\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/mocks/MockERC721.sol\":{\"keccak256\":\"0xbfbb755bb379f58b97699f7cda0e9a2b9113daaa072e41b280a5ce6a3bff44c9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5ae0c31d29db14d6a0e9b62d33d550feb307f48a6f45068901a013321f337f87\",\"dweb:/ipfs/QmX25DVXW6XZDvRm6SNBGCWrZQ6oNhdq5CmgtVocvsUdwv\"]},\"/home/magda/merkle-airdrop-24/lib/forge-std/src/safeconsole.sol\":{\"keccak256\":\"0xbef9786cb49d3eade757bad87568c49c8c8f35721f0193c95ffb055d9e466e11\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3bafd2b0b2d28068d329f95ea8a1fbce3719c257fcb863fc01abcbafd8d531ab\",\"dweb:/ipfs/QmUeaFjKWTVDBsHVfSob4mwt6A5hTnKDz22HaUXeZhypa3\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/access/Ownable.sol\":{\"keccak256\":\"0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6\",\"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/interfaces/IERC1363.sol\":{\"keccak256\":\"0x9f21f1bcc51daf7fe3998608d7eeb96b16a9c3816898a0cf6a9407bd105c9253\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://71cd1acb2370851314e9e2fc84123228e468037435eea0ed1c459346a214ce73\",\"dweb:/ipfs/QmXw5XVVnrjX3m224Zs9jdQVY3abwiCEVBjk9w24DXsFSi\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/interfaces/IERC165.sol\":{\"keccak256\":\"0xde7e9fd9aee8d4f40772f96bb3b58836cbc6dfc0227014a061947f8821ea9724\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://11fea9f8bc98949ac6709f0c1699db7430d2948137aa94d5a9e95a91f61a710a\",\"dweb:/ipfs/QmQdfRXxQjwP6yn3DVo1GHPpriKNcFghSPi94Z1oKEFUNS\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/interfaces/IERC20.sol\":{\"keccak256\":\"0xce41876e78d1badc0512229b4d14e4daf83bc1003d7f83978d18e0e56f965b9c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a2608291cb038b388d80b79a06b6118a42f7894ff67b7da10ec0dbbf5b2973ba\",\"dweb:/ipfs/QmWohqcBLbcxmA4eGPhZDXe5RYMMEEpFq22nfkaUMvTfw1\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol\":{\"keccak256\":\"0x9cac1f97ecc92043dd19235d6677e40cf6bac382886a94f7a80a957846b24229\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a1e0c924e0edfdfd4abceeb552d99f1cd95c0d387b38ccb1f67c583607e3d155\",\"dweb:/ipfs/QmZAi6qKa66zuS3jyEhsQR9bBNnZe1wSognYqw9nvseyUz\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0xc61b3530214f6729db70cc02ffacf6218e601a5e351dd25e369a03c6ca201cfb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://48b897a0323b8d04464848832b364ecfd6c002fd15c53a86304ca1eec1475d12\",\"dweb:/ipfs/QmV1S2GmZgU9bDEfdXFyCe1HhDy4nND3z4Jyy4iBvh5wu2\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xee2337af2dc162a973b4be6d3f7c16f06298259e0af48c5470d2839bfa8a22f4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://30c476b4b2f405c1bb3f0bae15b006d129c80f1bfd9d0f2038160a3bb9745009\",\"dweb:/ipfs/Qmb3VcuDufv6xbHeVgksC4tHpc5gKYVqBEwjEXW72XzSvN\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0x88f7b6f070ad1de2bf899da6978ed74b5038eac78c01b7359b92b60c3d965c28\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c436edb6733a036607c6f17cc590e8ee351363a8cb4c564a98d9a66392c89323\",\"dweb:/ipfs/QmcJvJR2K3EtYcKEXVpQ1WqT6TvAbVem5HR1FirAsqEXFR\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol\":{\"keccak256\":\"0x18436638da96539b6a9f971f8ce332c6fcad32d15c988af689b174f753d9936b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0351b5b167c9f0f6eb670bc6db5e9579aadb9a42edc62256c182695c3e9bf47e\",\"dweb:/ipfs/QmSQPNXU4NYhYojvyqHRzQx2duRx5njv6AHssoJMQb8Tq1\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/utils/Address.sol\":{\"keccak256\":\"0xe484b91c24d898c84aebae9c06263523a27582e6c97909d9ea71a4e15dc44fa2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ca1ffd7dbe0cf24fae85132e0b33bb26f6ff7935effd0d73f1f67e13bff4032\",\"dweb:/ipfs/QmetqL3cbjn5pR4vVtnkWZBYH5LPvEsPoVrd6bDwGe2ZfJ\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/utils/Context.sol\":{\"keccak256\":\"0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12\",\"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/utils/Errors.sol\":{\"keccak256\":\"0xc452b8c0ab5a57e6ca49c4fbe6aead2460c2f8d60d58bc60af68e559b7ca1179\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0980b3b9e8cd9d9a0f2ae848f0f36a85158887e6fd961142a13b11299ae7f30a\",\"dweb:/ipfs/QmUrmDji3NR2V3YezV8xHSS3wjeBKq16FL7cHdBCnwLjKd\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/utils/cryptography/Hashes.sol\":{\"keccak256\":\"0x4773a1161a3123e5e6af685852bf6c2ceed3140c83415b9bae839c6edaf2906b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://909710ce3b0828400258f1a474fc9c228d321d6003387ea8413f7c45878f7606\",\"dweb:/ipfs/QmPTjrA3jyLsvcuEySKSWR9QYfzwyUJC3izshUr8ctR3xL\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol\":{\"keccak256\":\"0x6ad290ef88389a0acf29d26db907c65340b7cf2222d7ff1a00b088abf9d90725\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a1d3db3390ce425931466ff9740b82b85068b721f3ed57a752b8a8869feb2444\",\"dweb:/ipfs/QmToogBtL3iJZvPJENRNPZ5pQVxp91EoomiuFARr5Qdekx\"]},\"/home/magda/merkle-airdrop-24/lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0xc859863e3bda7ec3cddf6dafe2ffe91bcbe648d1395b856b839c32ee9617c44c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a9d5417888b873cf2225ed5d50b2a67be97c1504134a2a580512168d587ad82e\",\"dweb:/ipfs/QmNr5fTb2heFW658NZn7dDnofZgFvQTnNxKRJ3wdnR1skX\"]},\"/home/magda/merkle-airdrop-24/script/DeployMerkleAirdrop.s.sol\":{\"keccak256\":\"0xb4e0510eb9787e33df90fbe6851a6e2e49d9b17b650787eeee2cb54bf41cd176\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://3822abc936d5898b434bafc9a6350e2d914a0d9b53d94687efd3b7b1bbf108b5\",\"dweb:/ipfs/QmZaomEu33DSutBakv1mShUBGW9BCfQwoRPmzpvQJqgHv7\"]},\"/home/magda/merkle-airdrop-24/src/BagelToken.sol\":{\"keccak256\":\"0x11201806f8e5865bf604c93d1d517c24d2ceb664a45994cb090d6c014dd1fd46\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://2b5bb2a88118eda006c36de0159b5ece1ffaa5016a32a3cbced71a7458f0fb06\",\"dweb:/ipfs/QmUzuu3iypSvYfAs2cdBbBfFSJ3dTbJbSvQ5eqHXMRyHqU\"]},\"/home/magda/merkle-airdrop-24/src/MerkleAirdrop.sol\":{\"keccak256\":\"0x6a79bbc8381146cb14a8324b9101508e74de9e218631be7edd1ef4cabd2ee118\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://87647aec1b4e75f5050541720f352b3ad90dd9dc9e107dc43c5906c2a976aa2a\",\"dweb:/ipfs/QmXzEAPMSt5pbGjdUJEbY1JskxMFg8oAQtYdnSVTQT8AHq\"]}},\"version\":1}",
+    "bytecode": "608080604052346024576201000162ff00ff19600c541617600c556097908160298239f35b5f80fdfe60808060405260043610156011575f80fd5b5f3560e01c8063c04062261460515763f8ccbf4714602d575f80fd5b34604d575f366003190112604d5760209060ff600c5460101c1615158152f35b5f80fd5b34604d575f366003190112604d5700fea2646970667358221220ce6f8bc8916f628fa07ba90bfd2a4cdfb98d619c3504e832699997855a70d4cd64736f6c634300081b0033",
+    "deployedBytecode": "60808060405260043610156011575f80fd5b5f3560e01c8063c04062261460515763f8ccbf4714602d575f80fd5b34604d575f366003190112604d5760209060ff600c5460101c1615158152f35b5f80fd5b34604d575f366003190112604d5700fea2646970667358221220ce6f8bc8916f628fa07ba90bfd2a4cdfb98d619c3504e832699997855a70d4cd64736f6c634300081b0033",
+    "sourceMap": "255:73:34:-:0;;;;;;;;;;3166:4:2;255:73:34;;;3166:4:2;255:73:34;;;;;;;;;;;",
+    "deployedSourceMap": "255:73:34:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;255:73:34;;;;;;;800:28:1;255:73:34;;;;;;;;;;;;;;;;;;;-1:-1:-1;;255:73:34;;;;",
+    "sourcePath": "/home/magda/merkle-airdrop-24/script/DeployMerkleAirdrop.s.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.27+commit.40a35a09"
+    },
+    "ast": {
+        "absolutePath": "/home/magda/merkle-airdrop-24/script/DeployMerkleAirdrop.s.sol",
+        "exportedSymbols": {
+            "BagelToken": [
+                38291
+            ],
+            "DeployMerkleAirdrop": [
+                38253
+            ],
+            "MerkleAirdrop": [
+                38424
+            ],
+            "Script": [
+                113
+            ]
+        },
+        "id": 38254,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 38240,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".24"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:34"
+            },
+            {
+                "absolutePath": "/home/magda/merkle-airdrop-24/lib/forge-std/src/Script.sol",
+                "file": "/home/magda/merkle-airdrop-24/lib/forge-std/src/Script.sol",
+                "id": 38242,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 38254,
+                "sourceUnit": 114,
+                "src": "65:82:34",
+                "symbolAliases": [
+                    {
+                        "foreign": {
+                            "id": 38241,
+                            "name": "Script",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 113,
+                            "src": "73:6:34",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    }
+                ],
+                "unitAlias": ""
+            },
+            {
+                "absolutePath": "/home/magda/merkle-airdrop-24/src/MerkleAirdrop.sol",
+                "file": "../src/MerkleAirdrop.sol",
+                "id": 38244,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 38254,
+                "sourceUnit": 38425,
+                "src": "148:55:34",
+                "symbolAliases": [
+                    {
+                        "foreign": {
+                            "id": 38243,
+                            "name": "MerkleAirdrop",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 38424,
+                            "src": "156:13:34",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    }
+                ],
+                "unitAlias": ""
+            },
+            {
+                "absolutePath": "/home/magda/merkle-airdrop-24/src/BagelToken.sol",
+                "file": "../src/BagelToken.sol",
+                "id": 38246,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 38254,
+                "sourceUnit": 38292,
+                "src": "204:49:34",
+                "symbolAliases": [
+                    {
+                        "foreign": {
+                            "id": 38245,
+                            "name": "BagelToken",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 38291,
+                            "src": "212:10:34",
+                            "typeDescriptions": {}
+                        },
+                        "nameLocation": "-1:-1:-1"
+                    }
+                ],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 38247,
+                            "name": "Script",
+                            "nameLocations": [
+                                "287:6:34"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 113,
+                            "src": "287:6:34"
+                        },
+                        "id": 38248,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "287:6:34"
+                    }
+                ],
+                "canonicalName": "DeployMerkleAirdrop",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 38253,
+                "linearizedBaseContracts": [
+                    38253,
+                    113,
+                    8519,
+                    3000,
+                    940,
+                    74,
+                    62
+                ],
+                "name": "DeployMerkleAirdrop",
+                "nameLocation": "264:19:34",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 38251,
+                            "nodeType": "Block",
+                            "src": "324:2:34",
+                            "statements": []
+                        },
+                        "functionSelector": "c0406226",
+                        "id": 38252,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "run",
+                        "nameLocation": "309:3:34",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 38249,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "312:2:34"
+                        },
+                        "returnParameters": {
+                            "id": 38250,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "324:0:34"
+                        },
+                        "scope": 38253,
+                        "src": "300:26:34",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "scope": 38254,
+                "src": "255:73:34",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "39:290:34"
+    },
+    "functionHashes": {
+        "IS_SCRIPT()": "f8ccbf47",
+        "run()": "c0406226"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "30200",
+            "executionCost": "24308",
+            "totalCost": "54508"
+        },
+        "external": {
+            "IS_SCRIPT()": "2282",
+            "run()": "130"
+        }
+    }
+}
